@@ -1,0 +1,22 @@
+* {
+   /* Todos os elementos vao ter essas caracteristicas, por isso o *  */
+   /* Onde, tiramos as margens e os padding, definimos a font do texto, e definimos que os elementos vao ter o tamanho*/
+   /* que demos, e não com base no padding */
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+  box-sizing: border-box;
+}
+
+h1{
+  /* Todos os título H1 vao ser da cor desse azul, com um espaçamento do que tiver em baixo de 1em e o tamanho de 2.1 */
+  color: #16479D;
+  margin-bottom: 1em;
+  font-size: 2.1em;
+}
+
+.bold{
+  /* Todos os elemento de categoria bold vao ter essa cor e serem bold */
+  font-weight: bold;
+  color: 16479D;
+}
